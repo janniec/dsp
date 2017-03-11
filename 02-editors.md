@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I prefer Nano. I made my decision by creating the different python files with each editor, creating files, editing, saving, and closing. Nano is the easiest to use.
 
 --
 
@@ -89,6 +89,6 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will use Atom. I learned python on Windows through the "Learn Python the Hard Way" book. I plan to learn python on Ubuntu the same way. The book recommended that I use Atom. Atom is apparently very hackable. We shall see. To open/create a file in the Terminal, I can type "atom apple.py" for example. Ctrl+s will save. Ctrl+o will give me a browser to open a file. Atom appears to be easily customizable through its settings menu.
 
  
