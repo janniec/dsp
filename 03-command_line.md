@@ -19,7 +19,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > pwd: print working directory 
+mkdir: make directory 
+rmdir: remove directory 
+touch: create new empty files
+rm: remove file
+mv: move or rename file or directory  
+ls -a: list all files within directory
+cp: copy file
+cd: change directory   
+grep: find things inside files  
 
 ---
 
@@ -34,7 +43,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls`     : list directory  
+`ls -a`  : list all files  
+`ls -l`  : display long format listing  
+`ls -lh`  : display long format listing and human readable   
+`ls -lah`  : display all files in long format listing and human readable  
+`ls -t`  :display newest files first based on timestamp  
+`ls -Glp`  : displays long format listing without group Ids and adds a slash at the end of each directory   
 
 ---
 
@@ -42,7 +57,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >  ls -R : displays subdirectories  
+ls -s : lists directories with size  
+ls -g : lists directories with group IDs   
+ls -c : lists directories in columns  
+ls -r : lists directories in reverse order  
 
 ---
 
@@ -50,7 +69,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > Xargs takes the input from the prior command and argument and invokes other utility on that input. For example, "find . -name "*.jpg" -type f | xargs rm -rf" will find only .jpg files in the directory and then remove them. 
 
  
 
