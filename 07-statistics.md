@@ -84,7 +84,27 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>>  The question is essentially asking what is the probability that Elvis was an identical twin, given that he was part of a set of twin males, P(I|M).  
+  
+>>  The probability of being a set of male twins and the probability of being identical twins are dependent.  Knowing the outcome of one probability will change the probability of the second.  Let’s assume that babies have a 1/2 probability of being male.  If we know someone is an identical twin, the probability that that person is a set of male twins, P(M|I), is 1/2.  Or if someone is an fraternal twin, the probability that that person is a set of 2 male twins, P(M|F), is 1/4. The probability of 2 baby boys is 1/2 x 1/2 =  1/4. These sare conditional probabilities.    
+  
+>>  Because we are working with conditional probabilities and we want to solve one probability given evidence, the probability of Elvis being and identical twin, given the evidence that Elvis had a twin brother, Bayes’ Theorem is the appropriate tool for this question.  
+  
+>>  Bayes’ Theorem is P(A|B) = (P(A) P(B|A)) / P(B). Here, we are solving for P(I|M) = (P(I) P(M|I)) / P(M).  
+>>  P(I): We know from the problem statement that the probability of identical twins in the population is 1/300. 
+>>  P(M|I): As stated above, given identical twins there is a 1/2 probability of having a male set twins versus female twins.  
+>>  P(M): The probability of a male set of twins in the population, regardless of fraternal twins or identical twins. We get this by solving for P(M) = (P(F) P(M|F)) + (P(I) P(M|I)). We know from the problem statement that probability of fraternal twins the population, P(F), is 1/125. As stated above, given fraternal twins, the probability of a male set of twins, P(M|F), is 1/4. 
+  
+>>  So to solve for P(I|M) = …
+>>  (P(I)      x P(M|I)) / P(M)  
+>>  (P(I)      x P(M|I)) / (P(F)   x  P(M|F)) + (P(I)      x  P(M|I))  
+>>  ((1/300) x (1/2)) / (((1/125) x (1/4)) + ((1/300) x (1/2)))  
+>>  ((messy fractions math))  
+>>  5/11  
+  
+>>  So, given that Elvis was part of a set of twin males, the probability that Elvis and his twin brother were identical twins is 5/11.   
+
+
 
 ---
 
