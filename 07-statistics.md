@@ -115,7 +115,7 @@ How do frequentist and Bayesian statistics compare?
 
 >>  The Frequentist approach measures frequency.  For example, if we are trying to find the probability of heads vs tails on a quarter, we can take an infinite number of samples by flipping the coin and counting the frequency of heads. However, the Frequentist approach assumes that each and every flip is identical. The hand, the distance from the table, the method of flipping, the quarter flipped, etc. 
 
->>  The Bayesian approach measures possibilities. For example, to find the probability of head vs tails, we count the number of heads, 1, and divide by the total number of possibilities, 2. The parameters for flipping can vary. However, the Bayesian approach relies on a degree of confidence in some prior knowledge. We must be know that there are only 1 heads out of 2 possibilities on this coin.  
+>>  The Bayesian approach measures possibilities. For example, to find the probability of head vs tails, we count the number of heads, 1, and divide by the total number of possibilities, 2. The parameters for flipping can vary. However, the Bayesian approach relies on a degree of confidence in some prior knowledge. We must be know that there are only 1 heads out of 2 possibilities on this coin.  We also assume that all possibiliteis are equal.  
 
 
 
