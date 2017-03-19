@@ -111,7 +111,13 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentist and Bayesian statistics contrast in approaches to  the data and the parameters.  In Frequentist statistics, data varies but the parameters are fixed.  In Bayesian statistics, the data is fixed but the parameters vary.  
+
+>>  The Frequentist approach measures frequency.  For example, if we are trying to find the probability of heads vs tails on a quarter, we can take an infinite number of samples by flipping the coin and counting the frequency of heads. However, the Frequentist approach assumes that each and every flip is identical. The hand, the distance from the table, the method of flipping, the quarter flipped, etc. 
+
+>>  The Bayesian approach measures possibilities. For example, to find the probability of head vs tails, we count the number of heads, 1, and divide by the total number of possibilities, 2. The parameters for flipping can vary. However, the Bayesian approach relies on a degree of confidence in some prior knowledge. We must be know that there are only 1 heads out of 2 possibilities on this coin.  
+
+
 
 ---
 
