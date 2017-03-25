@@ -19,16 +19,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > pwd: print working directory 
-mkdir: make directory 
-rmdir: remove directory 
-touch: create new empty files
-rm: remove file
-mv: move or rename file or directory  
-ls -a: list all files within directory
-cp: copy file
-cd: change directory   
-grep: find things inside files  
+> > pwd: print working directory   
+mkdir: make directory   
+rmdir: remove directory   
+touch: create new empty files  
+rm: remove file  
+mv: move or rename file or directory    
+ls -a: list all files within directory  
+cp: copy file  
+cd: change directory     
+grep: find things inside files    
 
 ---
 
